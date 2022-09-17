@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),Url(img/donation14.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+    width: 95%;
+    margin-top: 40px;
+}
+.text h1{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    padding: 15px;
+}
+.text p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+}
+.text button{
+    margin-top: 15px;
+    padding: 15px 20px;
+    border: 1px solid crimson;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 25px;
+}
+.text button:hover{
+    background : transparent;
+    color: white;
+}
+.donation-option{
+    height: 100vh;
+    text-align: center;
+}
+.donation-option h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 55px;
+}
+.donation-option h1 span{
+    color: firebrick;
+}
+.donation-option p{
+    color: gray;
+    margin-top: 10px;
+}
+.all-box{
+    width: 100%;
+    margin: 40px 0;
+}
+.box1{
+    width: 150px;
+    height: 155px;
+    text-align: center;
+    line-height: 155px;
+    background-color: rgba(199,199,199,0.295);
+    margin: 10px 20px;
+    color: rgba(92,92,92);
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+}
+#border-color1{
+    border-radius: 5px;
+    border: 4px solid tomato;
+}
+#border-color2{
+    border-radius: 5px;
+    border: 4px solid crimson;
+}
+#border-color3{
+    border-radius: 5px;
+    border: 4px solid yellowgreen;
+}
+#border-color4{
+    border-radius: 5px;
+    border: 4px solid green;
+}
+.donation-option input{
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(34,34,34,0.61);
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-dnt{
+    margin-top: 15px;
+    padding: 15px 30px;
+    border: 1px solid crimson;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 25px;
+}
+.btn-dnt:hover{
+    background : black;
+    color: white;
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out;
+}
+.our-don-plan h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.our-don-plan p{
+    font-size: 20px;
+    color: rgb(143, 76, 31);
+}
+.our-don-plan{
+    width: 100%;
+    text-align: center;
+}
+.our-don-plan h1 span{
+    color: darkred;
+}
+.card{
+    width: 100%;
+    margin: auto;
+}
+.card1{
+    width: 300px;
+    height: auto;
+    background-color: rgba(40, 100, 156, 0.705);
+    margin: 15px;
+    display: inline-block;
+    text-align: left;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card2{
+    width: 300px;
+    height: auto;
+    background-color: rgba(223, 196, 48, 0.836);
+    margin: 15px;
+    display: inline-block;
+    text-align: left;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card3{
+    width: 300px;
+    height: auto;
+    background-color: rgba(18, 147, 156, 0.705);
+    margin: 15px;
+    display: inline-block;
+    text-align: left;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.contribute{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.text-items{
+    width: 50%;
+    margin: auto;
+    padding-left: 10%;
+    text-align: left;
+}
+.text-items h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.text-items p{
+    font-size: 20px;
+    color:gray;
+}
+.con-img{
+    width: 50%;
+    padding-left: 10%;
+}
+.con-img img{
+    width: 90%;
+    border-radius:  50px 20px 50px 10px;
+    
+}
+.btn-how{
+    margin-top: 15px;
+    padding: 15px 30px;
+    border: 1px solid crimson;
+    cursor: pointer;
+    background-color: crimson;
+    border-radius: 25px;
+}
+.btn-how:hover{
+    background : black;
+    color: white;
+    transform: translateY(-6px);
+    transition: all 0.5s ease-in-out; 
+}
+.email-submit{
+    width: 100%;
+    text-align: center;
+}
+.email-submit h1{
+    font-size: 50px;
+    color: #222;
+    text-transform: uppercase;
+}
+.email-submit h1{
+    color: tomato;
+}
+.email-submit p{
+    font-size: 20px;
+    color: gray;
+}
+.email-box {
+    width: 50%;
+    margin: 50px auto;
+    padding: 100px;
+    background-color: rgba(255, 99, 71, 0.548);
+    position: relative;
+}
+.email-box input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+.email-btn{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    top: 100px;
+    right: 50px;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #222;
+}
+footer img{
+    width: 20%;
+    padding: 20px;
+}
+footer h5{
+    width: 100%;
+    color: rgb(255, 244, 244);
+    padding: 10px;
+}
+
+
